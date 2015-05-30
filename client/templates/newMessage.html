@@ -1,0 +1,24 @@
+<template name='newMessage'>
+
+        <!--New Message Box-->
+        <div class="form-group">
+            <label for="textArea" class="col-lg-2 control-label">New Message</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="textArea"></textarea>
+                
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <!-- END New Message Box -->
+  
+    <script>
+        $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
+</template>
