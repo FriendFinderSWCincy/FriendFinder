@@ -10,17 +10,8 @@
         </div>
 
         <div class="navbar-collapse collapse navbar-inverse-collapse">
-            {{#if currentUser}}
-                {{>logout}}
-            {{else}}
-                {{>login}}
-            {{/if}}
+            {{>login}}
         </div>
     </div>
-    <script>
-            $(document).ready(function() {
-                // This command is used to initialize some elements and make them work properly
-                $.material.init();
-            });
-    </script>
+    {{> materializeRipples}}
 </template>
