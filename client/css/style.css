@@ -9,3 +9,13 @@ div.navbar.navbar-inverse{
     margin: 10px;
     text-indent: -9000px;
 }
+
+.well{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+
+    background: url(../images/sunset.png) no-repeat center center;
