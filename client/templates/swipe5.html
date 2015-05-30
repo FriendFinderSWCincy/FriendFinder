@@ -1,0 +1,22 @@
+<template name = "swipe5">
+
+    <h1>Happy Hour</h1>
+    <img src="/ProfilePics/swipe5.jpg">
+
+        <div>
+            <h2>Karen, 26, 14 miles away</h2>
+            <p>I can do a perfect cartwheel and my favorite color is purple!</p>
+        </div>
+        <div id="response">
+            <button type="button">I Think We Click</button>
+            <button type="button">Next</button>
+        </div>
+
+    <script> $("#swipe").swipe({
+  swipe:function(event, direction, distance, duration, fingerCount) {
+    $(this).text("You swiped " + direction );
+  }
+});
+    </script>
+
+</template>

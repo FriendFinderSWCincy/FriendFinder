@@ -1,0 +1,21 @@
+div.navbar.navbar-inverse{
+	background-color: #ccffcc;
+}
+
+.navbar-brand{
+	background: url(../logo_720.png) no-repeat top left;
+    background-size: contain;
+    width: 140px;
+    margin: 10px;
+    text-indent: -9000px;
+}
+
+.well{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+
+    background: url(../images/sunset.png) no-repeat center center;
