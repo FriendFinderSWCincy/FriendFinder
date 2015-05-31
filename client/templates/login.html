@@ -3,16 +3,24 @@
 	<ul class="nav navbar-nav navbar-right">
         {{#if currentUser}}
 
-        <li><a href="{{pathFor 'profile'}}">{{currentUser.services.facebook.name}} -
-    {{currentUser.services.facebook.gender}}</a></li>
-    	<li><button id="logout" class="btn btn-default">Logout</button></li>
-
-    	{{else}}
         <li>
-            <button id="facebook-login" class="btn btn-default"> Login with Facebook</button>
+	        <div class="list-group">
+	        	<div class="list-group-item">
+	        		<div class="row-picture">
+	    				<img class='circle' src="{{img}}">
+					</div>
+					<div class='row-content'>
+						<a href="{{pathFor 'profile'}}"><br>{{currentUser.services.facebook.name}}</a>
+					</div>
+				</div>
+			
+			</div>
+		</li>
+    	<li>
+    		<button id="logout" class="btn btn-default">Logout</button>
+		</li>
 
-        </li>
-           {{/if}}
+        {{/if}}
 
     </ul>
 

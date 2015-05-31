@@ -7,11 +7,20 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand active" href="{{pathFor 'home'}}">Clickstr</a>
+                 
         </div>
-
+        {{> chatIcon}}
         <div class="navbar-collapse collapse navbar-inverse-collapse">
             {{>login}}
         </div>
+
+
     </div>
     {{> materializeRipples}}
+</template>
+
+<template name='chatIcon'>
+    <div class="icon-preview">
+        <a href="{{pathFor 'chat2'}}" id='chatbutton'><i class="mdi-communication-chat" ></i></a><span></span>
+    </div>
 </template>

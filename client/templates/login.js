@@ -15,3 +15,10 @@ Template.login.events({
         })
     }
 });
+
+
+Template.login.helpers({
+    'img': function(){
+        return Meteor.user().profile.img;
+    }
+})

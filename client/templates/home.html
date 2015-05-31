@@ -3,11 +3,7 @@
 <template name='home'>
 {{#if currentUser}}
 	{{#if hasFilledOutDescription}}
-		{{#if hasFilledOutActivities}}
-			{{> Activities1}}
-		{{else}}
-			{{> activities}}
-		{{/if}}
+		{{> Activities1}}
 	{{else}}
 		{{> description}}
 	{{/if}}
