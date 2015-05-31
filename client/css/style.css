@@ -24,7 +24,6 @@ div.navbar.navbar-inverse{
 }
 
 .well{
-    
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
@@ -32,11 +31,13 @@ div.navbar.navbar-inverse{
     font-size: 1.2em;
     text-shadow: 2px 2px 2px #333333;
     height: 110px;    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .texttag{
-    display: table-cell;
+
     vertical-align: middle;
 }
 
