@@ -6,16 +6,90 @@ div.navbar.navbar-inverse{
 	background: url(../logo_720.png) no-repeat top left;
     background-size: contain;
     width: 140px;
-    margin: 10px;
+    margin: 12px;
     text-indent: -9000px;
 }
+
+.activity{
+	text-align: center;
+}
+
+.user{
+	margin: 0 auto;
+    max-width: 600px;	
+}
+
+
+#description{
+	vertical-align: text-bottom;
+}
+
 
 .well{
     width: 30%;
     float: left;
     margin: 10px;
+    padding: 0 auto;
     text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px #333333;
 }
 
 
-/*    background: url(../images/sunset.png) no-repeat center center;*/
+
+#beer {
+    background: url(/Activities/beer.jpg) no-repeat center center;
+}
+#coffee {
+    background: url(/Activities/coffee.jpg) no-repeat center center;
+}
+#concert {
+    background: url(/Activities/concert.jpg) no-repeat center center;
+}
+#cycle {
+    background: url(/Activities/cycle.jpg) no-repeat center center;
+}
+#dance {
+    background: url(/Activities/dance.jpg) no-repeat center center;
+}
+#extremesports {
+    background: url(/Activities/extremesports.jpg) no-repeat center center;
+}
+#fitness {
+    background: url(/Activities/fitness.jpg) no-repeat center center;
+}
+#happyhour {
+    background: url(/Activities/happyhour.jpg) no-repeat top center;
+}
+#hiking {
+    background: url(/Activities/hiking.jpg) no-repeat center center;
+}
+#outdoors {
+    background: url(/Activities/outdoors.jpg) no-repeat center center;
+}
+#playdate {
+    background: url(/Activities/playdate.jpg) no-repeat center center;
+}
+#running {
+    background: url(/Activities/running.jpg) no-repeat center center;
+}
+#soccer {
+    background: url(/Activities/soccer.jpg) no-repeat center center;
+}
+#theatre {
+    background: url(/Activities/theatre.jpg) no-repeat center center;
+}
+#yoga {
+    background: url(/Activities/yoga.jpg) no-repeat center center;
+}
+
+.checkbox{
+    padding: 10px;
+    margin: 0 auto;
+    float: bottom;
+}
+
+.mutfriend {
+    width: 50px;
+    border-radius: 50%;
+}
