@@ -6,6 +6,15 @@ div.navbar.navbar-inverse{
 	background: url(../logo_720.png) no-repeat top left;
     background-size: contain;
     width: 140px;
-    margin: 10px;
+    margin: 12px;
     text-indent: -9000px;
+}
+
+.user, .activity{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.user{
+	max-width: 500px;
 }
