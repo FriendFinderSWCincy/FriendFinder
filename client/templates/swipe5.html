@@ -1,22 +1,46 @@
 <template name = "swipe5">
+    <div class='container'>
+        
+            <div class="user">
+                <h1 class='activity'>Happy Hour</h1>
+                <br/>      
+                <div id="swipe" draggable="true">
+                    <img src="/ProfilePics/swipe5.jpg">
+                            
+                    <div>
+                        <h3>Karen, 26, 14 miles away</h3>
+                        <p>I can do a perfect cartwheel and my favorite color is purple!</p>
+                    </div>
+                </div>
+                    <div id="response">
+                        <a href="javascript:void(0)" class="btn btn-success btn-raised">I Think We Click</a>
+                        <a href="javascript:void(0)" class="btn btn-default btn-raised">Next</a>
+                    </div>
+                
 
-    <h1>Happy Hour</h1>
-    <img src="/ProfilePics/swipe5.jpg">
+            </div>
+    </div>
 
-        <div>
-            <h2>Karen, 26, 14 miles away</h2>
-            <p>I can do a perfect cartwheel and my favorite color is purple!</p>
-        </div>
-        <div id="response">
-            <button type="button">I Think We Click</button>
-            <button type="button">Next</button>
-        </div>
+    <script>
+    $("#swipe").dragend();
 
-    <script> $("#swipe").swipe({
+
+    </script>
+
+
+   <!-- <script> $("#swipe").swipe({
   swipe:function(event, direction, distance, duration, fingerCount) {
     $(this).text("You swiped " + direction );
   }
 });
+
+    $("#my-link").on("click", function() {
+       $("#container").dragend({
+        scrollToPage: 2
+      });
+    });
+
     </script>
+    -->
 
 </template>
