@@ -15,12 +15,10 @@ div.navbar.navbar-inverse{
 }
 
 .user{
-	margin: 0 auto;	
+	margin: 0 auto;
+    max-width: 600px;	
 }
 
-.user{
-	max-width: 600px;
-}
 
 #description{
 	vertical-align: text-bottom;
@@ -90,6 +88,7 @@ div.navbar.navbar-inverse{
     float: bottom;
 }
 
-.user img {
-    width: 150px;
+.mutfriend {
+    width: 50px;
+    border-radius: 50%;
 }
