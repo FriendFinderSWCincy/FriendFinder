@@ -10,13 +10,20 @@ div.navbar.navbar-inverse{
     text-indent: -9000px;
 }
 
-.user, .activity{
-	margin: 0 auto;
+.activity{
 	text-align: center;
 }
 
 .user{
-	max-width: 500px;
+	margin: 0 auto;	
+}
+
+.user{
+	max-width: 600px;
+}
+
+#description{
+	vertical-align: text-bottom;
 }
 
 
@@ -75,4 +82,5 @@ div.navbar.navbar-inverse{
 #yoga {
     background: url(/Activities/yoga.jpg) no-repeat center center;
 }
+
 
