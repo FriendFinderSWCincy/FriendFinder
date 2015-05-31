@@ -1,20 +1,12 @@
 Meteor.subscribe('reports', function(){
   return Reports.find();
 });
+
+
 console.log(JSON.stringify(Reports.find({}, {sort: {createdAt: -1}})));
+console.log(JSON.stringify(Meteor.user()));
+console.log('ay', JSON.stringify(Meteor.userId()));
+console.log ('Yo', JSON.stringify(Meteor.users.findOne({_id: Meteor.userId()})));
+console.log ('Yo2', JSON.stringify(Meteor.users.findOne({_id: "2n98riesC5HgsszRk"})));
 
-  Template.body.helpers({
-    reports: function () {
-      // Show newest tasks first
-      return Reports.find({}, {sort: {createdAt: -1}});
-    },
-    counter: function() {
-      return Session.get('counter');
-    }
-  });
-
-  Template.hello.events({
-    'click button': function() {
-      Session.set('counter',Session.get('counter')+1);
-    }
-  });
+console.log(JSON.stringify(Meteor.users.find({_id: Meteor.user()._id} )));

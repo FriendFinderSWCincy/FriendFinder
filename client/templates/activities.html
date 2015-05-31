@@ -1,0 +1,64 @@
+<template name="activities">
+
+<div class='container'>
+      <div class='jumbotron'>
+        <!--START SIGNUP FORM v0.1-->
+        <div id='activitiesForm' class="form-horizontal">
+            <fieldset>
+                <legend>ACTIVITIES</legend>
+                <div class="form-group">
+
+            <div class="col-lg-10">
+
+                <div class="checkbox">
+					<label for="KiteGliding">
+				  		<input type="checkbox" name="KiteGliding" id="KiteGliding">
+					KiteGliding
+					</label>
+				</div>
+                <div class="checkbox">
+					<label for="Movies">
+				  		<input type="checkbox" name="Movies" id="Movies">
+					Movies
+					</label>
+				</div>
+                <div class="checkbox">
+					<label for="Dancing">
+				  		<input type="checkbox" name="Dancing" id="Dancing">
+					Dancing
+					</label>
+				</div>
+                <div class="checkbox">
+					<label for="HappyHour">
+				  		<input type="checkbox" name="HappyHour" id="HappyHour">
+					Happy Hour
+					</label>
+				</div>
+
+            </div>
+        </div>
+                <div class="form-group">
+                  
+
+                    <!--<div class="col-xs-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> I agree to the terms and conditions.
+                            </label>
+                        </div>
+                     </div>  --> <!-- TODO: THE CHECKBOX DOESN"T WORK -->
+                     <label for="activitiesFormSubmit" class="col-xs-2 control-label"></label>
+                    <div class='col-xs-12'>
+                        <button id='activitiesFormSubmit' class="btn btn-primary" >Submit</button>
+                    </div>
+                </div>
+        
+            </fieldset>
+        </div> <!-- END signup form -->
+      </div> <!-- END jumbotron -->
+    </div> <!-- END container -->
+
+	{{> materializeRipples}}
+
+
+</template>

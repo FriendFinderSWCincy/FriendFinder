@@ -18,3 +18,12 @@ div.navbar.navbar-inverse{
 .user{
 	max-width: 500px;
 }
+
+
+.well{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
