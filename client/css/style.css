@@ -83,4 +83,7 @@ div.navbar.navbar-inverse{
     background: url(/Activities/yoga.jpg) no-repeat center center;
 }
 
-
+.checkbox{
+    padding: 10px;
+    float: bottom;
+}
