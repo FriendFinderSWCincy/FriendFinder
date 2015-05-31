@@ -19,8 +19,6 @@ div.navbar.navbar-inverse{
     max-width: 600px;
 }
 
-
-
 #description{
 	vertical-align: text-bottom;
 }
@@ -35,6 +33,7 @@ div.navbar.navbar-inverse{
 .wellSelected{
     opacity: 0.5;
 }
+
 
 
 #beer {
@@ -87,4 +86,9 @@ div.navbar.navbar-inverse{
     padding: 10px;
     margin: 0 auto;
     float: bottom;
+}
+
+.mutfriend {
+    width: 50px;
+    border-radius: 50%;
 }
