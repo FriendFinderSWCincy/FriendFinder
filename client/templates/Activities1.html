@@ -5,9 +5,11 @@
     <h1>Select Activities</h1>
 
     <div class="row">
-        <div class="col-sm-4 col-xs-6" id='beer2'>
-            <div class="well activity" id="beer">
-            <p>Get a Beer</p>
+
+        <div class="col-sm-4 col-xs-6">
+            <div class="well" id="beer">
+                
+                <p>Get a Beer</p>
             </div>
         </div>
         <div class="col-sm-4 col-xs-6">
@@ -83,30 +85,32 @@
 
     </div>
 
+
     <div class='row'>
         <div class="checkbox">
-            <h4>Who would you like to meet?</h4>
-            <label>
-                <input type="checkbox"> Male
-            </label>
-            <label>
-                <input type="checkbox"> Female
-            </label>
+        <h4>Who would you like to meet?</h4>
+        <label>
+            <input type="checkbox"> Male
+        </label>
+        <label>
+            <input type="checkbox"> Female
+        </label>
+
         </div>
 
-        <div class="checkbox">
-            <h4>Need to have friends in common?</h4>
-            <label>
-                <input type="checkbox"> Yes
-            </label>
-            <label>
-                <input type="checkbox"> No
-            </label>
-        </div>
+            <div class="checkbox">
+                <h4>Need to have friends in common?</h4>
+                <label>
+                    <input type="checkbox"> Yes
+                </label>
+                <label>
+                    <input type="checkbox"> No
+                </label>
+            </div>
 
-        <div id="response">
-            <a href="{{pathFor 'swipe3'}}" class="btn btn-success btn-raised" data-content="Displaying Matches!" data-toggle="snackbar" data-timeout="0" >Go!</a>
-        </div>
+            <div id="response">
+                <a href="{{pathFor 'swipe3'}}" class="btn btn-success btn-raised" data-content="Displaying Matches!" data-toggle="snackbar" data-timeout="0" >Go!</a>
+            </div>
 
     </div>
 
@@ -115,7 +119,7 @@
 <script type="text/javascript">
     $(".well").on("click", function() {
     $(this).toggleClass('wellSelected');
-});
+    });
 </script>
-
+{{> materializeRipples}}
 </template>

@@ -29,7 +29,18 @@ div.navbar.navbar-inverse{
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
-    text-shadow: 1px 1px #333333;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px #333333;
+    height: 110px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texttag{
+
+    vertical-align: middle;
 }
 
 .wellSelected{
