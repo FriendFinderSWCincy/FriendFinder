@@ -89,3 +89,7 @@ div.navbar.navbar-inverse{
     margin: 0 auto;
     float: bottom;
 }
+
+.user img {
+    width: 150px;
+}
