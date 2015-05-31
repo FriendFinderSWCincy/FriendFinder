@@ -15,26 +15,25 @@ div.navbar.navbar-inverse{
 }
 
 .user{
-	margin: 0 auto;	
+	margin: 0 auto;
+    max-width: 600px;
 }
 
-.user{
-	max-width: 600px;
-}
+
 
 #description{
 	vertical-align: text-bottom;
 }
 
-
 .well{
-    width: 30%;
-    float: left;
-    margin: 10px;
-    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px #333333;
+}
+
+.wellSelected{
+    opacity: 0.5;
 }
 
 
