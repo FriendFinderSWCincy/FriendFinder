@@ -59,7 +59,7 @@ div.navbar.navbar-inverse{
     background: url(/Activities/fitness.jpg) no-repeat center center;
 }
 #happyhour {
-    background: url(/Activities/happyhour.jpg) no-repeat center center;
+    background: url(/Activities/happyhour.jpg) no-repeat top center;
 }
 #hiking {
     background: url(/Activities/hiking.jpg) no-repeat center center;
