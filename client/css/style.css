@@ -16,6 +16,55 @@ div.navbar.navbar-inverse{
     float: left;
     margin: 10px;
     text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px #333333;
 }
+
+#beer {
+    background: url(/Activities/beer.jpg) no-repeat center center;
+}
+#coffee {
+    background: url(/Activities/coffee.jpg) no-repeat center center;
+}
+#concert {
+    background: url(/Activities/concert.jpg) no-repeat center center;
+}
+#cycle {
+    background: url(/Activities/cycle.jpg) no-repeat center center;
+}
+#dance {
+    background: url(/Activities/dance.jpg) no-repeat center center;
+}
+#extremesports {
+    background: url(/Activities/extremesports.jpg) no-repeat center center;
+}
+#fitness {
+    background: url(/Activities/fitness.jpg) no-repeat center center;
+}
+#happyhour {
+    background: url(/Activities/happyhour.jpg) no-repeat center center;
+}
+#hiking {
+    background: url(/Activities/hiking.jpg) no-repeat center center;
+}
+#outdoors {
+    background: url(/Activities/outdoors.jpg) no-repeat center center;
+}
+#playdate {
+    background: url(/Activities/playdate.jpg) no-repeat center center;
+}
+#running {
+    background: url(/Activities/running.jpg) no-repeat center center;
+}
+#soccer {
+    background: url(/Activities/soccer.jpg) no-repeat center center;
+}
+#theatre {
+    background: url(/Activities/theatre.jpg) no-repeat center center;
+}
+#yoga {
+    background: url(/Activities/yoga.jpg) no-repeat center center;
+}
+
 
 
