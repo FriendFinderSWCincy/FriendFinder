@@ -16,7 +16,11 @@ div.navbar.navbar-inverse{
 }
 
 .user{
-	max-width: 500px;
+	max-width: 600px;
+}
+
+#description{
+	vertical-align: text-bottom;
 }
 
 
@@ -26,4 +30,5 @@ div.navbar.navbar-inverse{
     margin: 10px;
     text-align: center;
 }
+
 
