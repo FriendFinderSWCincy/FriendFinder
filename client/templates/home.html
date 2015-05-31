@@ -1,7 +1,17 @@
 
 
 <template name='home'>
-
-hello
-
+{{#if currentUser}}
+	{{#if hasFilledOutDescription}}
+		{{#if hasFilledOutActivities}}
+			{{> swipe}}
+		{{else}}
+			{{> activities}}
+		{{/if}}
+	{{else}}
+		{{> description}}
+	{{/if}}
+{{else}}
+	{{> signupPage}}
+{{/if}}
 </template>
