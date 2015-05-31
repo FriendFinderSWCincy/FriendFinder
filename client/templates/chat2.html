@@ -1,0 +1,63 @@
+<template name='chat2'>
+
+{{> messages}}
+{{> newMessage}}
+
+</template>
+
+
+<template name='messageGroup'>
+	<div class="list-group-item">
+        <div class="row-picture">
+            <img class="circle" src="http://lorempixel.com/56/56/people/1" alt="icon">
+        </div>
+        <div class="row-content">
+        	<div class='well'>
+			    {{> message}}
+			    {{> message}}
+			    {{> message}}
+			</div>
+        </div>
+    </div>
+
+</template>
+
+
+<template name='message'>
+	<div class="list-group-item">
+        <div class="row-picture">
+            <img class="circle" src='{{img}}' alt="icon">
+        </div>
+        <div class="row-content">
+        	<div class='well'>
+			    {{message}}
+			</div>
+        </div>
+    </div>
+
+
+
+
+</template>
+
+<template name ='messages'>
+	<div class="list-group">
+
+	{{#each messages}}
+		{{> message}}
+	{{/each}}
+
+	</div>
+</template>
+
+
+<template name='newMessage'> 
+    <div class="list-group"> 
+    	<div class='row'> 
+    		<div class='col-lg-4'> 
+            	<input type='text' class="form-control" id="newMessage" placeholder="Say Hi">
+       			<div class="icon-preview"><button class='btn btn-primary' id='sendMessage'><i class="mdi-content-send"></i><span>Send</span></button></div> 
+       		</div> 
+   		</div> 
+    </div> 
+</template> 

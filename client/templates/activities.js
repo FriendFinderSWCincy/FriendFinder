@@ -13,7 +13,11 @@
         	activities.push(activityText);
         	console.log(activities);
 	        Meteor.users.update(Meteor.userId(), {$set: {"profile.activities": activities, "profile.hasFilledOutActivities": true}});
-          	Router.go('swipe');
+
+	      	//also set up image while we are at it.
+	      	Meteor.users.update(Meteor.userId(), {$set: {"profile.img": "http://graph.facebook.com/" + Meteor.user().services.facebook.id + "/picture/?type=large"}});
+
+          	Router.go('home');
         }
 
 /*
